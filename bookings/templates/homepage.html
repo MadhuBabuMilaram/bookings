@@ -1,0 +1,18 @@
+{{template "base" .}} 
+{{define "content"}}
+    <div class="containers">
+        <div class="row">
+            <div class="col"> Hi home page </div>
+            <div class="col"> Hi home page  2</div>
+        </div>
+        <div class="row">
+            <div class="col"> Hi home page </div>
+            <div class="col"> Hi home page  2</div>
+        </div>
+        <div class="row">
+            <div class="col"> Hi home page </div>
+            <div class="col"> Hi home page  2</div>
+        </div>
+        <p> this is came from tempalte {{index .StringMap "test"}}</p>
+    </div>
+{{end}}
